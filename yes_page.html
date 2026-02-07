@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>She Said YES! 💖</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      font-family: Arial, sans-serif;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    h1 {
+      color: white;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    }
+
+    .video-container {
+      width: 90%;
+      max-width: 800px;
+      aspect-ratio: 16/9;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      border-radius: 15px;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    /* optional floating hearts */
+    .heart {
+      position: absolute;
+      animation: float 2s linear forwards;
+      pointer-events: none;
+    }
+
+    @keyframes float {
+      0% { transform: translate(0,0) scale(1); opacity: 1; }
+      100% { transform: translate(var(--x), var(--y)) scale(0.5); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>She said YES!!! 💖🎉</h1>
+
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/g1zh3crEa8k" 
+      title="Nepali AVRIL!!!!" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <!-- Background music -->
+  <audio id="bgMusic" src="music.mp3" loop autoplay></audio>
+
+  <script src="yes_script.js"></script>
+
+</body>
+</html>
