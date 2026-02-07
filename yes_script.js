@@ -15,7 +15,7 @@
     document.addEventListener("mousemove", startMusic, { once: true });
 
     // Optional: floating hearts for celebration
-   /* function createHeart() {
+    function createHeart() {
       const heart = document.createElement("div");
       heart.className = "heart";
       heart.textContent = "💖";
@@ -32,4 +32,4 @@
       setTimeout(() => heart.remove(), 2000);
     }
 
-    setInterval(createHeart, 500);*/
+    setInterval(createHeart, 500);
