@@ -2,7 +2,7 @@
 let messageIndex = 0;
 let lastMoveTime = 0;
 let noSpeed = 1; // adjust movement speed/farther = faster
-
+/*
 const messages = [
   "Are you sure? 🥺",
   "Like… really sure??",
@@ -11,7 +11,21 @@ const messages = [
   "Plot twist: you're supposed to say yes 😏",
   "The Yes button is looking kinda good now 👀",
   "Okay but I'm telling the love gods 😤"
+];*/
+
+const messages = [
+  "Sure ho ta? 🥺",
+  "Sachikai sure ho?? 😳",
+  "Mero imaginary vibe ta purai off bhayo ni 😔",
+  "Yo ta rom-com vibe nai bhayena ni 😤",
+  "Plot twist: timile ta YES bhannu parne ho 😏",
+  "Yes button herda-herdai ramro lagna thalyo hola 👀",
+  "Aba ta maya-ko bhagwan lai complain gardinchu 😤",
+  "Last chance ho hai… natra regret huncha 👀🔥",
+  "Mero imaginary movie ko climax bigryo 🎥💔",
+  "Euta YES le sab thik huncha ni 😌💖"
 ];
+
 
 const noButton = document.querySelector(".no-button");
 const yesButton = document.querySelector(".yes-button");
